@@ -1,6 +1,6 @@
 import React from "react";
 import { siteConfig } from "@/config/site";
-import { UploadCloud, Cpu, CheckSquare, ArrowRight, Shield } from "lucide-react";
+import { UploadCloud, Cpu, CheckSquare, Shield } from "lucide-react";
 
 export const HowItWorks: React.FC = () => {
   const steps = [

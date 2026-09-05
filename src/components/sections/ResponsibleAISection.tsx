@@ -1,7 +1,6 @@
 import React from "react";
 import { siteConfig } from "@/config/site";
 import {
-  ShieldAlert,
   FileCheck2,
   UserCheck2,
   Scale,

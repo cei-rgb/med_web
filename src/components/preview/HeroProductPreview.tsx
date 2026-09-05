@@ -14,8 +14,6 @@ import {
   Calendar,
   AlertTriangle,
   FileCheck,
-  ExternalLink,
-  Search,
   CheckCircle2,
   Clock,
   Sparkles,

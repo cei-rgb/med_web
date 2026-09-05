@@ -3,7 +3,7 @@
 import React from "react";
 import { siteConfig } from "@/config/site";
 import { HeroProductPreview } from "@/components/preview/HeroProductPreview";
-import { ArrowRight, ShieldCheck, CheckCircle2, FileSearch, Sparkles } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const Hero: React.FC = () => {
   return (

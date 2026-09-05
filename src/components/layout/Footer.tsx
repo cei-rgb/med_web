@@ -1,7 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { ShieldCheck, Info } from "lucide-react";
+import { Info } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (

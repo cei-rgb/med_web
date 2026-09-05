@@ -5,10 +5,7 @@ import {
   AlertTriangle,
   Calendar,
   Sparkles,
-  ExternalLink,
-  CheckCircle2,
   Clock,
-  ArrowUpRight,
   ShieldAlert,
 } from "lucide-react";
 

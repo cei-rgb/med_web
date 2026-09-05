@@ -8,7 +8,6 @@ import {
   Clock,
   CheckCircle2,
   Stethoscope,
-  ChevronRight,
 } from "lucide-react";
 
 export const TimelineSection: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Lock, Eye, Zap, ShieldCheck } from "lucide-react";
+import { Lock, Eye, Zap } from "lucide-react";
 
 export const CredibilitySection: React.FC = () => {
   const pillars = [

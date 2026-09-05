@@ -1,6 +1,5 @@
 import React from "react";
-import { siteConfig } from "@/config/site";
-import { ArrowRight, ShieldCheck } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const FinalCTA: React.FC = () => {
   return (
