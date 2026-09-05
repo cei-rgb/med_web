@@ -90,19 +90,19 @@ export const Navbar: React.FC = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-3">
-            <button
-              type="button"
+            <Link
+              href="/workspace"
               className="rounded-lg px-3.5 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600"
             >
               Sign In
-            </button>
-            <a
-              href="#hero-preview"
+            </Link>
+            <Link
+              href="/workspace"
               className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 focus-visible:ring-offset-2"
             >
               <span>Get Started</span>
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -191,21 +191,21 @@ export const Navbar: React.FC = () => {
 
             {/* Mobile Actions */}
             <div className="pt-6 border-t border-slate-200 flex flex-col gap-3">
-              <button
-                type="button"
+              <Link
+                href="/workspace"
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full rounded-lg border border-slate-300 py-2.5 text-center text-sm font-medium text-slate-700 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600"
               >
                 Sign In
-              </button>
-              <a
-                href="#hero-preview"
+              </Link>
+              <Link
+                href="/workspace"
                 onClick={() => setMobileMenuOpen(false)}
                 className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600"
               >
                 <span>Get Started</span>
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </a>
+              </Link>
               <div className="mt-2 flex items-center justify-center gap-1.5 text-xs text-slate-500">
                 <ShieldCheck className="h-4 w-4 text-emerald-600" aria-hidden="true" />
                 <span>Privacy-focused • Human verified</span>

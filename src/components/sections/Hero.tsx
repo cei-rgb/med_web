@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { HeroProductPreview } from "@/components/preview/HeroProductPreview";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
@@ -48,13 +49,13 @@ export const Hero: React.FC = () => {
 
             {/* Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-              <a
-                href="#hero-preview"
+              <Link
+                href="/workspace"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-slate-800 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 focus-visible:ring-offset-2"
               >
                 <span>Get Started</span>
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </a>
+              </Link>
               <a
                 href="#how-it-works"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-700 shadow-2xs transition-all hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600 focus-visible:ring-offset-2"

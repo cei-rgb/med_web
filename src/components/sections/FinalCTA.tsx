@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const FinalCTA: React.FC = () => {
@@ -32,13 +33,13 @@ export const FinalCTA: React.FC = () => {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <a
-              href="#hero-preview"
+            <Link
+              href="/workspace"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-7 py-3.5 text-sm font-bold text-slate-950 shadow-md transition-all hover:bg-emerald-400 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
             >
               <span>Get Started</span>
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
-            </a>
+            </Link>
 
             <a
               href="#how-it-works"
